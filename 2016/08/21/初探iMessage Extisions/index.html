@@ -84,15 +84,23 @@
 
 
 
-<meta name="description" content="努力学习的iOS开发菜鸟">
-<meta property="og:type" content="website">
-<meta property="og:title" content="吾同学的iOS学习记录">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="DEMO 环境要求 xcode8 – iOS10iMessage + Apps (Messages Extension)iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple P">
+<meta property="og:type" content="article">
+<meta property="og:title" content="初探iMessage Extensions">
+<meta property="og:url" content="http://yoursite.com/2016/08/21/初探iMessage Extisions/index.html">
 <meta property="og:site_name" content="吾同学的iOS学习记录">
-<meta property="og:description" content="努力学习的iOS开发菜鸟">
+<meta property="og:description" content="DEMO 环境要求 xcode8 – iOS10iMessage + Apps (Messages Extension)iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple P">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/StickerPack.png">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/StickerDetail.png">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/compact1.png">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/expand1.png">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/MSMessageTemplateLayout.png">
+<meta property="og:image" content="http://oakbcmhd4.bkt.clouddn.com/demo1.png">
+<meta property="og:updated_time" content="2016-08-21T06:21:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="吾同学的iOS学习记录">
-<meta name="twitter:description" content="努力学习的iOS开发菜鸟">
+<meta name="twitter:title" content="初探iMessage Extensions">
+<meta name="twitter:description" content="DEMO 环境要求 xcode8 – iOS10iMessage + Apps (Messages Extension)iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple P">
+<meta name="twitter:image" content="http://oakbcmhd4.bkt.clouddn.com/StickerPack.png">
 
 
 
@@ -113,9 +121,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/08/21/初探iMessage Extisions/"/>
 
-  <title> 吾同学的iOS学习记录 </title>
+  <title> 初探iMessage Extensions | 吾同学的iOS学习记录 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,9 +144,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -215,9 +221,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -237,10 +243,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/08/21/初探iMessage Extisions/" itemprop="url">
-                  初探iMessage Extensions
-                </a>
+                初探iMessage Extensions
               
             
           </h1>
@@ -280,9 +283,7 @@
       
 
       
-        
-          
-            <h4 id="DEMO-环境要求-xcode8-–-iOS10"><a href="#DEMO-环境要求-xcode8-–-iOS10" class="headerlink" title="DEMO 环境要求 xcode8 – iOS10"></a>DEMO 环境要求 xcode8 – iOS10</h4><h1 id="iMessage-Apps-Messages-Extension"><a href="#iMessage-Apps-Messages-Extension" class="headerlink" title="iMessage + Apps (Messages Extension)"></a>iMessage + Apps (Messages Extension)</h1><h4 id="iMessage-App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage-App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）-独立于Container-App开发，并且提供了全新的消息模式，开始支持iap和Apple-Pay等-我们也可以在现有的项目中添加iMessage-App，系统会自动将其添加到Messages-App-Store。"><a href="#iMessage-App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage-App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）-独立于Container-App开发，并且提供了全新的消息模式，开始支持iap和Apple-Pay等-我们也可以在现有的项目中添加iMessage-App，系统会自动将其添加到Messages-App-Store。" class="headerlink" title="iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple Pay等,我们也可以在现有的项目中添加iMessage App，系统会自动将其添加到Messages App Store。"></a>iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple Pay等,我们也可以在现有的项目中添加iMessage App，系统会自动将其添加到Messages App Store。</h4><h3 id="部分官方解释："><a href="#部分官方解释：" class="headerlink" title="部分官方解释："></a>部分官方解释：</h3><p>Take advantage of the new Messages framework in iOS 10 to create an app extension that lets users interact with your app directly within Messages. Users can easily create and share content, add stickers, make payments, and more, without leaving Messages.</p>
+        <h4 id="DEMO-环境要求-xcode8-–-iOS10"><a href="#DEMO-环境要求-xcode8-–-iOS10" class="headerlink" title="DEMO 环境要求 xcode8 – iOS10"></a>DEMO 环境要求 xcode8 – iOS10</h4><h1 id="iMessage-Apps-Messages-Extension"><a href="#iMessage-Apps-Messages-Extension" class="headerlink" title="iMessage + Apps (Messages Extension)"></a>iMessage + Apps (Messages Extension)</h1><h4 id="iMessage-App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage-App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）-独立于Container-App开发，并且提供了全新的消息模式，开始支持iap和Apple-Pay等-我们也可以在现有的项目中添加iMessage-App，系统会自动将其添加到Messages-App-Store。"><a href="#iMessage-App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage-App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）-独立于Container-App开发，并且提供了全新的消息模式，开始支持iap和Apple-Pay等-我们也可以在现有的项目中添加iMessage-App，系统会自动将其添加到Messages-App-Store。" class="headerlink" title="iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple Pay等,我们也可以在现有的项目中添加iMessage App，系统会自动将其添加到Messages App Store。"></a>iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple Pay等,我们也可以在现有的项目中添加iMessage App，系统会自动将其添加到Messages App Store。</h4><h3 id="部分官方解释："><a href="#部分官方解释：" class="headerlink" title="部分官方解释："></a>部分官方解释：</h3><p>Take advantage of the new Messages framework in iOS 10 to create an app extension that lets users interact with your app directly within Messages. Users can easily create and share content, add stickers, make payments, and more, without leaving Messages.</p>
 <h2 id="在iOS中新增了两种iMessage的方式：1-Stickers-packs、2-iMessage-Application"><a href="#在iOS中新增了两种iMessage的方式：1-Stickers-packs、2-iMessage-Application" class="headerlink" title="在iOS中新增了两种iMessage的方式：1.Stickers packs、2.iMessage Application"></a>在iOS中新增了两种iMessage的方式：1.Stickers packs、2.iMessage Application</h2><h3 id="Stickers-packs"><a href="#Stickers-packs" class="headerlink" title="Stickers packs"></a>Stickers packs</h3><h4 id="这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入Stickers-xcstickers中的Sticker-pack文件夹中-即可，（简单、粗暴）“0代码”-即可完成，iMessage的内置表情包添加-也可以被添加到Messages-App-Store中。"><a href="#这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入Stickers-xcstickers中的Sticker-pack文件夹中-即可，（简单、粗暴）“0代码”-即可完成，iMessage的内置表情包添加-也可以被添加到Messages-App-Store中。" class="headerlink" title="这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入Stickers.xcstickers中的Sticker pack文件夹中 即可，（简单、粗暴）“0代码” 即可完成，iMessage的内置表情包添加,也可以被添加到Messages App Store中。"></a>这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入<strong>Stickers.xcstickers中的Sticker pack文件夹中</strong> 即可，（简单、粗暴）<strong><em>“0代码”</em></strong> 即可完成，iMessage的内置表情包添加,也可以被添加到Messages App Store中。</h4><hr>
 <p>详细可参考一个国外链接: <a href="https://www.appcoda.com/message-sticker-app/" target="_blank" rel="external">https://www.appcoda.com/message-sticker-app/</a></p>
 <p><img src="http://oakbcmhd4.bkt.clouddn.com/StickerPack.png" alt="StickerPack"></p>
@@ -326,16 +327,20 @@
 <p>###<a href="https://developer.apple.com/videos/play/wwdc2016/204/" target="_blank" rel="external">WWDC视频iMessage Apps and Stickers</a></p>
 <p>###苹果在08月01放出了WWDC上演示的IceCream Demo(swift3.0):<a href="https://developer.apple.com/library/prerelease/content/samplecode/IceCreamBuilder/Introduction/Intro.html" target="_blank" rel="external">https://developer.apple.com/library/prerelease/content/samplecode/IceCreamBuilder/Introduction/Intro.html</a></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -346,16 +351,15 @@
 
       
       
-        <div class="post-eof"></div>
-      
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -363,6 +367,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -382,8 +390,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://hd.unsplash.com/photo-1468436139062-f60a71c5c892"
@@ -419,6 +436,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#DEMO-环境要求-xcode8-–-iOS10"><span class="nav-number">1.</span> <span class="nav-text">DEMO 环境要求 xcode8 – iOS10</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#iMessage-Apps-Messages-Extension"><span class="nav-number"></span> <span class="nav-text">iMessage + Apps (Messages Extension)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#iMessage-App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage-App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）-独立于Container-App开发，并且提供了全新的消息模式，开始支持iap和Apple-Pay等-我们也可以在现有的项目中添加iMessage-App，系统会自动将其添加到Messages-App-Store。"><span class="nav-number">1.</span> <span class="nav-text">iMessage App是一种全新的应用扩展，载体是iOS系统的Message应用，通过iMessage App，用户可以发送更加丰富的消息内容（即gif动图表情，图片，链接，音频等）,独立于Container App开发，并且提供了全新的消息模式，开始支持iap和Apple Pay等,我们也可以在现有的项目中添加iMessage App，系统会自动将其添加到Messages App Store。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部分官方解释："><span class="nav-number"></span> <span class="nav-text">部分官方解释：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在iOS中新增了两种iMessage的方式：1-Stickers-packs、2-iMessage-Application"><span class="nav-number"></span> <span class="nav-text">在iOS中新增了两种iMessage的方式：1.Stickers packs、2.iMessage Application</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Stickers-packs"><span class="nav-number"></span> <span class="nav-text">Stickers packs</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入Stickers-xcstickers中的Sticker-pack文件夹中-即可，（简单、粗暴）“0代码”-即可完成，iMessage的内置表情包添加-也可以被添加到Messages-App-Store中。"><span class="nav-number">1.</span> <span class="nav-text">这种创建方式，可在创建工程时直接选择，只需要将想要添加的图片或者gif等直接拖入Stickers.xcstickers中的Sticker pack文件夹中 即可，（简单、粗暴）“0代码” 即可完成，iMessage的内置表情包添加,也可以被添加到Messages App Store中。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#iMessage-Application"><span class="nav-number"></span> <span class="nav-text">iMessage Application</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MSConversation"><span class="nav-number"></span> <span class="nav-text">MSConversation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MSMessage"><span class="nav-number"></span> <span class="nav-text">MSMessage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MSStickerBrowserViewController"><span class="nav-number"></span> <span class="nav-text">MSStickerBrowserViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#除此之外还有一部分就是MSMessagesAppViewController的iMessage-App-LifeCycle了，这个在你创建iMessage-Application时，MessagesViewController下的-pragma-mark-Conversation-Handling下面的就是了，都有详细的英文注释"><span class="nav-number">0.1.</span> <span class="nav-text">除此之外还有一部分就是MSMessagesAppViewController的iMessage App LifeCycle了，这个在你创建iMessage Application时，MessagesViewController下的#pragma mark - Conversation Handling下面的就是了，都有详细的英文注释</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#废话说的有点多了下面附上我结合collectionView做的演示demo的地址感兴趣的可以看看，用到了我上面提到的知识点，可帮助理解：Demo（下附上demo图一张：）"><span class="nav-number"></span> <span class="nav-text">废话说的有点多了下面附上我结合collectionView做的演示demo的地址感兴趣的可以看看，用到了我上面提到的知识点，可帮助理解：Demo（下附上demo图一张：）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后："><span class="nav-number"></span> <span class="nav-text">最后：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#以下纯属个人YY"><span class="nav-number"></span> <span class="nav-text">以下纯属个人YY</span></a></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -522,6 +550,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
